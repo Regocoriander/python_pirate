@@ -53,9 +53,8 @@ print(도윤(3))
 # print(더하기(4,6))
 
 #2
-def 넓이(a, b):
-     return a * b/2
+# def 넓이(a, b):
+#      return a * b/2
 
-print(넓이(2, 4))
-print(넓이(10,20))
-
+# print(넓이(2, 4))
+# print(넓이(10,20))
