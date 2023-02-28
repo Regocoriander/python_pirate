@@ -246,7 +246,7 @@ a=["바나나","사과","오렌지"]
 # 너는바보임수고.reverse()
 # print(i)
 
-# 4numbers = [num for num in range(1, 21) if num % 3 == 0]
+# numbers = [num for num in range(1, 21) if num % 3 == 0]
 # numbers.sort(reverse=True)
 # print(numbers)
 
@@ -256,3 +256,83 @@ a=["바나나","사과","오렌지"]
 #         if a % i == 0 and b % i == 0:
 #             common_divisors.append(i)
 #     return common_divisors
+
+# a=[10,20,30]
+# a.insert(1,100)
+# a.insert(3,200)
+# print(a)
+
+# 1번
+# fruits=["orange","banana","cherry","apple"]
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# print(fruits[3])
+# # 2번
+# fruits=["orange","banana","cherry","apple"]
+# fruits.sort()
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# print(fruits[3])
+# 3번
+# fruits=["orange","banana","cherry","apple"]
+# fruits.sort()
+# fruits.reverse()
+# print(fruits[0])
+# print(fruits[1])
+# print(fruits[2])
+# print(fruits[3])
+
+# fruits=["orange","banana","cherry","apple"]
+# for i in range(len(fruits)):
+#     print(fruits[i])
+
+
+# fruits=["orange","banana","cherry","apple"]
+# fruits.append("watermelon")
+# fruits.append("bluberry")
+# fruits.append("tomato")
+# fruits.sort()
+# fruits.reverse()
+# for i in range(len(fruits)):
+#      print(fruits[i])
+
+# fruits=["orange","banana","cherry","apple"]
+# for fruit in fruits:
+#      print(fruit)
+
+# e=[]
+# for i in range(1,6):
+#     e.append(i)
+# print(e)
+
+# e=[]
+# for i in range(1,6):
+#     e.append(i)
+# print(e)
+
+# for i in range(len(e)):
+#     print(e[i])
+
+# e=[]
+# for i in range(1,21):
+#     if i%3==0:
+#        e.append(i)
+# print(e)   
+# e.sort()
+# e.reverse()    
+# for i in range(len(e)):
+#     print(e[i])
+
+# e=[]
+# for i in range(1,100):
+#     if i%3==0:
+#         if i%4==0:
+#             e.append(i)
+# e.sort()
+# e.reverse()
+# print(e)
+# e.sort()
+# for i in range(len(e)):
+#     print(e[i])
